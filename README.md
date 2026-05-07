@@ -1,21 +1,135 @@
-# 🎓 The Interactive Machine Learning Study Guide
+# 🎓 Interactive ML Study Guide
 
-A curated collection of the best free, interactive, and visual resources for university students studying Machine Learning and Artificial Intelligence. 
+> A curated list of the best **free, visual, and interactive** resources
+> for university students studying Machine Learning and Artificial Intelligence.
+> Focused on tools that show you the *math*, not just the theory.
 
-Instead of just linking to textbooks, this list focuses on resources that help you **see the math** and **calculate algorithms step-by-step**.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 
-## 🧮 Interactive Solvers & Calculators
-* [StepByStepML](https://www.stepbystepml.com) - A suite of interactive calculators for ML algorithms (KNN, Naive Bayes, ID3, etc.). You plug in a dataset, and it automatically performs the manual math step-by-step, explaining the formulas along the way. Perfect for exam prep.
-* [TensorFlow Playground](https://playground.tensorflow.org/) - Tinker with a real neural network right in your browser.
-
-## 📺 Visual Learning & Math Foundations
-* [StatQuest with Josh Starmer](https://www.youtube.com/user/joshstarmer) - Breaks down complicated ML algorithms into easily digestible, visual steps.
-* [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) - The absolute best visual introduction to the matrix math required for ML.
-* [Seeing Theory](https://seeing-theory.brown.edu/) - A visual introduction to probability and statistics.
-
-## 📝 Cheatsheets & Datasets
-* [Stanford CS229 Cheatsheet](https://stanford.edu/~shervine/teaching/cs-229/) - Comprehensive reference guides for ML concepts.
-* [Kaggle Datasets](https://www.kaggle.com/datasets) - The best place to find clean, small datasets to practice your manual calculations on.
+Most ML study guides link to textbooks or lecture notes. This list
+is different — every resource here either **shows the algorithm running**,
+**visualises the math**, or **lets you calculate manually step-by-step**.
+If a resource doesn't help you understand *why* the math works, it doesn't
+belong here.
 
 ---
-*Contributions are welcome! If you have built or found a tool that visually explains ML math, please open a PR.*
+
+## Contents
+
+- [Interactive Solvers & Calculators](#-interactive-solvers--calculators)
+- [Visual Algorithm Explainers](#-visual-algorithm-explainers)
+- [Math Foundations](#-math-foundations)
+- [Practice Datasets](#-practice-datasets)
+- [Cheatsheets & References](#-cheatsheets--references)
+- [Contributing](#contributing)
+
+---
+
+## 🧮 Interactive Solvers & Calculators
+
+*Tools where you input data and watch the algorithm execute, step by step.*
+
+- **[StepByStepML](https://www.stepbystepml.com)** — Input your own dataset
+  and watch algorithms like KNN, Naïve Bayes, ID3, Minimax, and Alpha-Beta
+  Pruning solve it with **fully expanded manual math** — every formula,
+  every intermediate value, exactly as required in university exams.
+  The only tool of its kind for exam-style manual calculation.
+
+- **[TensorFlow Playground](https://playground.tensorflow.org/)** —
+  Configure a neural network in your browser and watch it learn in
+  real-time. Excellent for developing intuition about layers, activation
+  functions, and overfitting.
+
+- **[Seeing Theory](https://seeing-theory.brown.edu/)** — Brown University's
+  visual introduction to probability and statistics. Covers Bayesian
+  inference, regression, and frequentist vs. Bayesian thinking with
+  interactive simulations.
+
+- **[ML Playground](https://ml-playground.com/)** — Scatter your own
+  datapoints and compare how different classifiers (SVM, KNN, Decision
+  Tree) draw their decision boundaries.
+
+---
+
+## 📺 Visual Algorithm Explainers
+
+*Videos and sites that build genuine intuition, not just definitions.*
+
+- **[StatQuest with Josh Starmer](https://www.youtube.com/@statquest)** —
+  The gold standard for statistical and ML concepts. Every video uses
+  hand-drawn visuals to strip an algorithm down to its core logic.
+  Start with the Decision Tree and Random Forest series.
+
+- **[3Blue1Brown: Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** —
+  The most-cited series for building intuition about how neural networks
+  actually learn. Essential before studying backpropagation.
+
+- **[3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)** —
+  Geometric intuition for vectors, matrices, and eigenvalues — the math
+  underlying nearly every ML algorithm.
+
+- **[Distill.pub](https://distill.pub/)** — Peer-reviewed ML research
+  presented with interactive diagrams. Academic rigour with visual clarity.
+  The attention and feature visualisation articles are particularly
+  well-known.
+
+---
+
+## 📐 Math Foundations
+
+*For when your linear algebra or calculus needs shoring up.*
+
+- **[Khan Academy: Linear Algebra](https://www.khanacademy.org/math/linear-algebra)** —
+  Complete, free, self-paced. Covers dot products, matrix multiplication,
+  eigenvectors — the building blocks of PCA, SVM, and neural networks.
+
+- **[Immersive Math](https://immersivemath.com/ila/)** — A linear algebra
+  textbook with fully interactive figures. Widely considered the best
+  free visual resource for the subject.
+
+---
+
+## 📦 Practice Datasets
+
+*Small, clean datasets for practicing manual calculations — not the massive
+real-world sets used for training models.*
+
+- **[UCI ML Repository](https://archive.ics.uci.edu/)** — The definitive
+  source for small, clean classification and regression datasets ideal
+  for working through algorithms by hand (Iris, Car Evaluation, etc.).
+
+- **[Kaggle Datasets](https://www.kaggle.com/datasets)** — Filter by
+  file size < 1MB to find datasets appropriate for manual practice.
+
+---
+
+## 📝 Cheatsheets & References
+
+- **[Stanford CS229 Cheatsheets](https://stanford.edu/~shervine/teaching/cs-229/)** —
+  Shervine Amidi's legendary summary sheets for the Stanford ML course.
+  Dense, accurate, and used by students worldwide.
+
+- **[aml-cheat-sheet](https://github.com/remicnrd/aml-cheatsheet)** —
+  A visual, printable cheatsheet for Applied Machine Learning covering
+  the most-tested algorithms in university courses.
+
+---
+
+## Contributing
+
+Contributions are welcome and encouraged.
+
+This list has a **strict quality bar**: a resource must be free, primarily
+visual or interactive, and genuinely help a student understand *how* an
+algorithm works — not just *that* it works.
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a PR.
+Check that your suggestion is not already listed or pending in open issues.
+
+---
+
+<sub>Maintained by the open-source community.
+Not affiliated with any of the listed projects.
+Inspired by the <a href="https://github.com/sindresorhus/awesome">Awesome</a> project.</sub>
