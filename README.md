@@ -1,18 +1,23 @@
-# 🎓 Interactive ML Study Guide
+# 🧠 ML Math Roadmap: From Fundamentals to Algorithms
 
-> A curated list of the best **free, visual, and interactive** resources
-> for university students studying Machine Learning and Artificial Intelligence.
-> Focused on tools that show you the *math*, not just the theory.
+> A structured, curated roadmap for university students and self-taught
+> developers who want to **understand the math behind Machine Learning** —
+> not just call `.fit()` and hope for the best.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![Last Updated](https://img.shields.io/github/last-commit/riyanj220/interactive-ml-resources)](https://github.com/riyanj220/interactive-ml-resources/commits/main)
 
-Most ML study guides link to textbooks or lecture notes. This list
-is different — every resource here either **shows the algorithm running**,
-**visualises the math**, or **lets you calculate manually step-by-step**.
-If a resource doesn't help you understand *why* the math works, it doesn't
-belong here.
+Most ML roadmaps hand you a library list and call it a day.
+This one is different. Every resource here either **shows the math running**,
+**visualises what the equations mean geometrically**, or **lets you work
+through calculations manually** — because the only way to truly understand
+an algorithm is to execute it yourself, by hand, at least once.
+
+This roadmap is structured as a learning path, not a link dump.
+Work through it top to bottom and you will go from shaky algebra
+to confidently implementing and explaining ML algorithms from scratch.
 
 ---
 
