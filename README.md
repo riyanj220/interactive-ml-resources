@@ -21,13 +21,17 @@ to confidently implementing and explaining ML algorithms from scratch.
 
 ---
 
-## Contents
+## 📋 Table of Contents
 
-- [Interactive Solvers & Calculators](#-interactive-solvers--calculators)
+- [How to Use This Roadmap](#-how-to-use-this-roadmap)
+- [Stage 1 — Linear Algebra](#-stage-1--linear-algebra)
+- [Stage 2 — Calculus & Optimisation](#-stage-2--calculus--optimisation)
+- [Stage 3 — Probability & Statistics](#-stage-3--probability--statistics)
+- [Stage 4 — Core ML Algorithms](#-stage-4--core-ml-algorithms)
+- [Interactive Intuition Tools](#-interactive-intuition-tools)
 - [Visual Algorithm Explainers](#-visual-algorithm-explainers)
-- [Math Foundations](#-math-foundations)
 - [Practice Datasets](#-practice-datasets)
-- [Cheatsheets & References](#-cheatsheets--references)
+- [Cheatsheets & Quick References](#-cheatsheets--quick-references)
 - [Contributing](#contributing)
 
 ---
