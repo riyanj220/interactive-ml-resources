@@ -36,29 +36,27 @@ to confidently implementing and explaining ML algorithms from scratch.
 
 ---
 
-## 🧮 Interactive Solvers & Calculators
+## 🗺 How to Use This Roadmap
 
-*Tools where you input data and watch the algorithm execute, step by step.*
+This is not a "collect them all" resource list.
+It is a **sequential curriculum**. Each stage unlocks the next.
 
-- **[StepByStepML](https://www.stepbystepml.com)** — Input your own dataset
-  and watch algorithms like KNN, Naïve Bayes, ID3, Minimax, and Alpha-Beta
-  Pruning solve it with **fully expanded manual math** — every formula,
-  every intermediate value, exactly as required in university exams.
-  The only tool of its kind for exam-style manual calculation.
+Linear Algebra → Calculus → Probability → Algorithms → Build Things
 
-- **[TensorFlow Playground](https://playground.tensorflow.org/)** —
-  Configure a neural network in your browser and watch it learn in
-  real-time. Excellent for developing intuition about layers, activation
-  functions, and overfitting.
+└───────── Loop back when something breaks ──────────┘
 
-- **[Seeing Theory](https://seeing-theory.brown.edu/)** — Brown University's
-  visual introduction to probability and statistics. Covers Bayesian
-  inference, regression, and frequentist vs. Bayesian thinking with
-  interactive simulations.
+**If you are a complete beginner:** Start at Stage 1. Do not skip it.
+The reason most developers hit a wall with ML is not the code — it is
+that they never built a working mental model of matrix operations
+and vector spaces.
 
-- **[ML Playground](https://ml-playground.com/)** — Scatter your own
-  datapoints and compare how different classifiers (SVM, KNN, Decision
-  Tree) draw their decision boundaries.
+**If you have some background:** Use the Table of Contents to jump
+to your weakest stage. Be honest with yourself about which stage that is.
+
+**For exam preparation specifically:** Jump directly to the
+[Interactive Intuition Tools](#-interactive-intuition-tools) section —
+those resources are built for manually executing algorithms the way
+a university exam requires.
 
 ---
 
