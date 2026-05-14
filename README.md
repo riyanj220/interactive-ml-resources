@@ -60,27 +60,45 @@ a university exam requires.
 
 ---
 
-## 📺 Visual Algorithm Explainers
+## 📐 Stage 1 — Linear Algebra
 
-*Videos and sites that build genuine intuition, not just definitions.*
+> *The language of ML. If you cannot multiply matrices in your head,
+> you cannot reason about what a neural network is doing.*
 
-- **[StatQuest with Josh Starmer](https://www.youtube.com/@statquest)** —
-  The gold standard for statistical and ML concepts. Every video uses
-  hand-drawn visuals to strip an algorithm down to its core logic.
-  Start with the Decision Tree and Random Forest series.
+**What you need to be able to do before moving on:**
+Perform matrix multiplication by hand. Understand what a dot product
+measures geometrically. Explain eigenvectors without using the word
+"eigenvectors." Apply these to understand why PCA works.
 
-- **[3Blue1Brown: Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** —
-  The most-cited series for building intuition about how neural networks
-  actually learn. Essential before studying backpropagation.
+### Core Resources
 
-- **[3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)** —
-  Geometric intuition for vectors, matrices, and eigenvalues — the math
-  underlying nearly every ML algorithm.
+- **[3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)**
+  — The single best starting point for anyone who has "done" linear algebra
+  but never *understood* it. Each chapter reframes an abstract operation as
+  a geometric transformation. Watch chapters 1–9 before touching any
+  other resource. Free, 15 hours total, no prerequisites.
 
-- **[Distill.pub](https://distill.pub/)** — Peer-reviewed ML research
-  presented with interactive diagrams. Academic rigour with visual clarity.
-  The attention and feature visualisation articles are particularly
-  well-known.
+- **[Immersive Math — Interactive Linear Algebra](https://immersivemath.com/ila/)**
+  — A peer-reviewed, fully interactive linear algebra textbook.
+  Every figure is a manipulable simulation. When 3B1B explains the concept,
+  this is where you go to poke at it. Covers dot products, matrix
+  transformations, eigenvalues, SVD.
+
+- **[MIT 18.06 — Gilbert Strang's Linear Algebra](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)**
+  — The canonical university course, free on MIT OpenCourseWare.
+  Strang's lectures are unusually clear for a pure mathematics course.
+  Use this alongside 3B1B once you want formal rigour alongside intuition.
+  Problem sets are included.
+
+- **[Khan Academy: Linear Algebra](https://www.khanacademy.org/math/linear-algebra)**
+  — The safest on-ramp if MIT 18.06 feels too steep initially.
+  Covers vectors, matrix operations, transformations, and inverses
+  in a self-paced, fully free format.
+
+- **[Computational Linear Algebra — fast.ai](https://github.com/fastai/numerical-linear-algebra)**
+  — A practical, code-first companion to the theoretical material above.
+  Implements the same concepts in Python/NumPy. Use after the
+  theoretical resources, not before.
 
 ---
 
