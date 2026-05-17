@@ -102,6 +102,44 @@ measures geometrically. Explain eigenvectors without using the word
 
 ---
 
+## 📉 Stage 2 — Calculus & Optimisation
+
+> *You do not need a full calculus course. You need derivatives,
+> the chain rule, and gradient descent — understood well enough
+> to derive backpropagation on a whiteboard.*
+
+**What you need to be able to do before moving on:**
+Compute partial derivatives. Explain what a gradient is and why
+we move in the opposite direction. Derive the update rule for
+linear regression using gradient descent from scratch.
+
+### Core Resources
+
+- **[3Blue1Brown: Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)**
+  — Eleven videos. Builds the conceptual foundation for derivatives,
+  integrals, and the chain rule entirely from geometric intuition.
+  If you have only one day to spend on calculus before diving into
+  ML, this is how to spend it.
+
+- **[Khan Academy: Multivariable Calculus](https://www.khanacademy.org/math/multivariable-calculus)**
+  — The relevant sections for ML are partial derivatives and
+  gradient vectors. Covers these at exactly the right depth —
+  rigorous enough to apply, accessible enough to not require
+  a mathematics degree.
+
+- **[Andrej Karpathy: micrograd](https://github.com/karpathy/micrograd)**
+  — A 150-line implementation of backpropagation from scratch.
+  The most efficient way to learn how automatic differentiation
+  and the chain rule connect to real neural network training.
+  Reading this code carefully is worth more than a week of calculus lectures.
+
+- **[The Matrix Calculus You Need For Deep Learning](https://explained.ai/matrix-calculus/)**
+  — A focused, 30-page paper by Parr and Howard. Covers exactly the
+  matrix calculus operators that appear in backpropagation derivations
+  and nothing else. Bookmark this as a permanent reference.
+
+---
+
 ## 📐 Math Foundations
 
 *For when your linear algebra or calculus needs shoring up.*
